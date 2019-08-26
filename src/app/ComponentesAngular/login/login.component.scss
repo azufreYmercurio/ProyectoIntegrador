@@ -1,0 +1,50 @@
+#cuerpo{
+    width: 100vw;
+    height: calc(100vh - 50px - 70px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    #cuerpo-login{
+        width: 90vw;
+        height: 100%;
+        position: relative;
+        display: flex;
+        .register{
+            width: 60%;
+            height: 100%;
+            .item{
+                position: relative;
+                display: flex;
+                width: 100%;
+                height: auto;
+                flex-flow: column nowrap;
+                margin: 15px 10px;
+                input{
+                    width: 30%;
+                }
+                .titulo{
+                    padding: 18px 10px 0 0;
+                    width: 100%;
+                    height: auto;
+                    font-size: 22px;
+                }
+                .l{
+                    margin: 4px 0 8px 0;
+                    height: 1px;
+                    width: 20%;
+                    background-color: black;
+                }
+                .text-cuerpo{
+                    padding: 0 10px 10px 0;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        .login{
+            width: 40%;
+            height: 100%;
+            background-color: blue;
+        }
+    }
+}
