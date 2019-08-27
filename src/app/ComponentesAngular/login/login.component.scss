@@ -62,7 +62,16 @@
         .login{
             width: 40%;
             height: 100%;
-            background-color: blue;
+            background-color: whitesmoke;
+            .ingreso{
+                position: relative;
+                    width: 50%;
+                    height: auto;
+            }
+            .contrasenna{
+                padding: 10px 0;
+                margin: 0 0 0 10%;
+            }
         }
     }
 }
