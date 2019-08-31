@@ -1,4 +1,4 @@
-#cuerpo{
+    #cuerpo{
     width: 100vw;
     height: calc(100vh - 50px - 70px);
     position: relative;
@@ -63,15 +63,58 @@
             width: 40%;
             height: 100%;
             background-color: whitesmoke;
-            .ingreso{
-                position: relative;
-                    width: 50%;
-                    height: auto;
+            .sectorlog{
+                margin: 10%;
             }
-            .contrasenna{
-                padding: 10px 0;
-                margin: 0 0 0 10%;
+            .imagen{
+                margin: 10%;
+                width: 10%;
+                height: 30px;
+                background-image: url("../Imagenes/Login.png");
+                background-size: 100% 100%;    
+                
+                
             }
+            
+            .item{
+                margin: 10%;
+            .Texto{
+                margin: 5%;
+                width: auto;
+                height: 2px;
+                color:black;
+            }
+        }
+            .item2{
+                margin: 10%;
+            .Texto2{
+                margin: 5%;
+                width: auto;
+                height: 2px;
+                color: green;
+            }
+            }
+            .Boton{
+                margin:13% ;               
+                
+                .textoBoton{
+                    border-block-end-width: auto;
+                    height: 30px;
+                    color:whitesmoke;
+                    border-color: aquamarine;
+                    background : 20%;
+                }
+                .recuperar{
+                    margin:10%;
+                    color: red;
+                }
+                .cuentaDuda{
+                    margin:10%;
+                    color:red;
+                }
+
+            }
+            
         }
     }
 }
