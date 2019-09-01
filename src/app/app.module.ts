@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './ComponentesAngular/login/login.component';
 import { HomeComponent } from './ComponentesAngular/home/home.component';
+import { IngresoUSerComponent } from './ComponentesAngular/ingreso-user/ingreso-user.component';
+
+
 
 
 
@@ -12,7 +15,9 @@ import { HomeComponent } from './ComponentesAngular/home/home.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    IngresoUSerComponent
+    
   ],
   imports: [
     BrowserModule,
