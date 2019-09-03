@@ -74,23 +74,44 @@
         
     </div>
     <div class="imagen"> <a >*</a>     </div>
+
+    
     <div class="item">
         <div class="Texto">
           <div class="dato" >Nombre o correo</div>
-        <input type="tt">
+          <div class="dato">Contraseña</div>
+          <form (submit) ="loginUser($event)">
+              <input type="text" placeholder="Username" id="username">            
+              <input type="password" placeholder="Password" id="password">
+              <input type="submit" value="Ingrese">   
+          </form>
+              
+          
         </div>
       </div>
     <div class="item2">
         <div class="Texto2">
+          <!--  
           <div class="dato">Contraseña</div>
-          <input type="password"></div>
-        </div>
+          
+              <input type="password">
+
+        </div>-->
+        
+    </div>
+  
+
+
+        <div class="textoBoton">         
+          <!--
+            <form (submit) ="LoginUser($event)">
+          <input type="submit" value="Ingrese">
+          <!- - <button id="button">Ingresar</button> - ->
+        </form>          -->
+          
+      </div>
     <div class="Boton">
-        <div class="textoBoton">
-            <a>__________________________</a>
-            <button id="button">Ingresar</button>
-            
-        </div>
+      
         <div class="recuperar">
             <i > * Olvide mi contraseña</i>
             
